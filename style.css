@@ -27,7 +27,7 @@ nav ul li {
 	list-style: none;
 	letter-spacing: 2px;
 	text-decoration: none;
-	transition: .5s ease;
+	transition: 1s ease;
 	width: 100px;
       
 }
@@ -77,7 +77,7 @@ nav ul p a:hover{
 }
 
 nav img:hover{
-	 transform: skewX(20deg);
+	 transform: skewX(-5deg);
 }
 .header h1 {
 	font-family: 'Dosis', sans-serif;
@@ -96,4 +96,16 @@ padding-bottom:13px;
 	 letter-spacing:3px;
 	 font-size:15px;
 	 color:  #F3F3F3;
+}
+
+.about {
+ width: 50%;
+ color: white;
+ font-family: 'Dosis', sans-serif;
+ font-size: 20px;
+ padding:2% 25% ;
+ word-spacing:3px;
+ letter-spacing: 1px;
+ line-height: 50px;
+ transition: all 1s ease;
 }
