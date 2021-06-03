@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-
 }
 body{
 	width: 100%;
@@ -21,15 +20,15 @@ body{
 nav ul{
     float: left;
 }
-
 nav ul li {
 	margin: 10px 0px 0px 100px;
 	list-style: none;
 	letter-spacing: 2px;
 	text-decoration: none;
+	transition: .5s ease;
 	transition: 1s ease;
 	width: 100px;
-      
+
 }
 nav ul li:hover {
 	transform:scale(1.2) ;
@@ -44,9 +43,7 @@ nav ul li a{
 nav ul li a:hover,nav ul li a.active{
 	color:#EF8142;
 	
-
 }
-
 nav ul p{
 	margin: 60px 0px 0px 100px;
     color: #AEB0B0;
@@ -69,8 +66,8 @@ nav ul p a:hover{
 }
  nav img{
 	
-	margin-top:-350px;
-	margin-left:100px;
+	top:-250px;
+	left:100px;
 	height: 300px;
     position: relative;
     border-radius: 5% 30% 5% 30%;
@@ -88,19 +85,59 @@ letter-spacing:2px;
 font-size:50px;
 padding-bottom:13px;
 }
-
 .header p {
 	margin-top:10px;
-	margin-right:px;
+	margin-right:170px;
 	 font-style: oblique;
 	 letter-spacing:3px;
 	 font-size:15px;
 	 color:  #F3F3F3;
 }
+div img {
+margin-left:200px;
+margin-top: -100px;
+position: relative;
+border-radius: 20% 20% 20% 20%;
+padding-bottom: 10px;
+}
+div img:hover{
+	height:25%;
+	width: 25%;
+}
+div a{
+float: right;
+margin-right:100px;
+font-family: 'Dosis', sans-serif;
+word-spacing:3px;
+ letter-spacing: 1px;
+ line-height: 30px;
+ transition: all 1s ease;
+ color:white;
+}
+.learn{
+float: right;
+margin-top:190px;
+margin-right: 50px;	
+width:100px;
+height:30px;
+transition: all 0.5s ease;
+border-radius:10%;
+}
+.learn a{
+	color: #878787;
+	font-family: 'Dosis', sans-serif;
+	transition: all 0.5s ease;
+}
+.learn:hover {
+	background-color:black;
+}
+.learn:hover a{
+color:white;
+}
 
-.about {
+.about{
  width: 50%;
- color: white;
+ color: #8E8E8E;
  font-family: 'Dosis', sans-serif;
  font-size: 20px;
  padding:2% 25% ;
@@ -108,4 +145,7 @@ padding-bottom:13px;
  letter-spacing: 1px;
  line-height: 50px;
  transition: all 1s ease;
+}
+.about:hover{
+  color:white;
 }

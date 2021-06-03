@@ -1,0 +1,132 @@
+*{
+	font-family: 'Dosis', sans-serif;
+list-style: none;
+padding: 0;	
+}
+body{
+	width: 90%;
+	height: 80vh;
+	background-image:url('dd.jpg');
+	background-size:cover;
+
+}
+.skills{
+	width: 800px;
+	margin: 60px auto;
+	color: white;
+	transition: 1s ease;
+}
+.skill h1{
+	margin: 20px 0;
+}
+.bar{
+	background:#065D88;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius:3px ;
+	overflow: hidden;
+	box-shadow: 0 0 10px #878889;
+  word-spacing:3px;
+
+
+}
+.bar span{
+	height: 2px;
+	float: left;
+	background:#FF0101;
+
+}
+.NepaliLanguage{
+	width: 90%;
+	animation: NepaliLanguage 2s;
+}
+
+.EnglishLanguage{
+	width:70%;
+	animation: EnglishLanguage 2s;
+}
+.HindiLanguage{
+	width: 80%;
+	animation: HindiLanguage 2s;
+}
+.Study{
+	width: 75%;
+	animation: Study 2s;
+}
+.ComputerSkill{
+	width: 65%;
+	animation: ComputerSkill 2s;
+
+}
+.Experience{
+	width: 50%;
+	animation: Experience 2s;
+}
+@keyframes NepaliLanguage {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+@keyframes EnglishLanguage {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+@keyframes HindiLanguage {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+@keyframes Study {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:75%;
+	}
+}
+@keyframes ComputerSkill{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:65%;
+	}
+}
+@keyframes Experience {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width:50%;
+	}
+}
+.close{
+float: right;
+margin-right:50px;
+width: 100px;
+background-color: transparent;
+border-radius:10%;
+}
+
+.close a {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.close:hover{
+width: 120px;
+}
+.close a:hover{
+transform: skewX(-5deg);
+}
