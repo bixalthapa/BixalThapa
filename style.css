@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	width: 100%;
-	height: 80vh;
+	/*height: 80vh;*/
 	background-image:url('dd.jpg');
 	background-size:cover;
 }
@@ -45,11 +46,13 @@ nav ul li a:hover,nav ul li a.active{
 	
 }
 nav ul p{
+	
 	margin: 60px 0px 0px 100px;
     color: #AEB0B0;
     letter-spacing:2px;
     font-style: oblique;
-    
+
+
 }
 nav ul p a{
 text-decoration: none;	
@@ -66,8 +69,8 @@ nav ul p a:hover{
 }
  nav img{
 	
-	top:-250px;
-	left:100px;
+	top:-350px;
+	left:300px;
 	height: 300px;
     position: relative;
     border-radius: 5% 30% 5% 30%;
@@ -92,6 +95,7 @@ padding-bottom:13px;
 	 letter-spacing:3px;
 	 font-size:15px;
 	 color:  #F3F3F3;
+
 }
 div img {
 margin-left:200px;
@@ -101,8 +105,8 @@ border-radius: 20% 20% 20% 20%;
 padding-bottom: 10px;
 }
 div img:hover{
-	height:25%;
-	width: 25%;
+	height:;
+	width: ;
 }
 div a{
 float: right;
@@ -148,4 +152,32 @@ color:white;
 }
 .about:hover{
   color:white;
+}
+.contact img{
+   margin-left: 100px;
+   border-radius: 5% 50% 5% 50%;
+
+}
+.contact h1{
+float: right;
+margin-right:500px;
+font-family: 'Dosis', sans-serif;
+font-size: 50px;
+transition: all 1s ease;
+letter-spacing: 1px;
+line-height:15px;
+color: #8E8E8E;
+}
+.contact p{
+	float: right;
+	margin-top: -250px;
+	margin-right:350px;
+	font-family: 'Dosis', sans-serif;
+	transition: all 1s ease;
+	word-spacing:5px;
+    font-size: 18px;
+    line-height:30px;
+}
+.contact p:hover{
+	color:white;
 }
